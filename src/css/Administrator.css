@@ -1,0 +1,94 @@
+/* Administrator.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc; /* Light creamy background color */
+}
+
+.administrator-container {
+  padding: 90px;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  font-weight: bold;
+  font-style: italic;
+  text-align: left;
+  color: #333;
+}
+
+.services-section, .barbers-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.services-list-container, .barbers-list-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.services-list, .barbers-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.service-item, .barber-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.service-item span, .barber-item h3 {
+  margin: 0 10px;
+}
+
+.button-container {
+  display: flex;
+  gap: 5px; /* Small gap between buttons */
+}
+
+.service-button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.service-button:hover {
+  background-color: #555;
+}
+
+.add-service, .add-barber {
+  margin-top: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group input {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}

@@ -1,0 +1,54 @@
+/* Services.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc; /* Light creamy background color */
+}
+
+.services-container {
+  padding: 100px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-item {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: calc(50% - 40px); /* Adjust width to fit two items per row with margin */
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+.service-item h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.service-item p {
+  margin-bottom: 0;
+  color: #666;
+}
+
+.service-item:hover {
+  background-color: #f0f0f0;
+}
